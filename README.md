@@ -93,8 +93,10 @@ Execution time: 0.012361764907836914 seconds]
 
 I TRIED TO FIND THE BEST MATCH FOR THIS THEORY BUT EVERYTHING FAILED SO I JUST DECIDED TO USE  [BSGS]
 
->> --------------- THE BABY STEPS--&--GIANT STEPS ALGORITHM --------------- 
+>> --------------- THE BABY STEPS--&--GIANT STEPS ALGORITHM ---------------
+>> 
 >>                                  X 
+>>
 >> -------------------------BIRTHDAY--PARADOX-------------------------
 >> 
 
