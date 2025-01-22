@@ -1,0 +1,20 @@
+START
+│
+├── Load Public Keys from `pubkeys.txt`
+│    ├── Validate Format
+│    └── Convert to Elliptic Curve Points
+│
+├── Create Baby-Step Table
+│    ├── Pre-compute Points
+│    └── Store `x` Coordinates in Dictionary
+│
+├── Giant-Step Search (Parallel)
+│    ├── For Each Public Key:
+│    │    ├── Compute Potential Private Keys
+│    │    └── Check for Hash Collisions
+│    └── Aggregate Results
+│
+├── Save Found Keys to `found_keys.txt`
+│
+└── END
+

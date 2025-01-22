@@ -1,0 +1,30 @@
+Start
+  |
+  v
+Generate Random Input
+  |
+  v
+Compute Hash (Truncated to Fewer Bits)
+  |
+  v
+Check Collision:
+    - Seen Before? Yes -> Report Collision & Exit
+    - No -> Store Hash & Continue
+  |
+  v
+Repeat Until Collision
+
+----------------------------------------------------------------
+
+Attempt 0: Input: 1934859376 -> Hash: a7
+Attempt 1: Input: 2638541271 -> Hash: 58
+Attempt 2: Input: 1058432615 -> Hash: 9b
+Attempt 3: Input: 1440375643 -> Hash: a7
+
+Collision found after 3 attempts!
+Hash: a7
+Input 1: 1934859376
+Input 2: 1440375643
+
+Execution time: 0.001 seconds
+
